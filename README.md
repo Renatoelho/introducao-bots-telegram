@@ -14,16 +14,32 @@ Outra vantagem da biblioteca telebot é sua comunidade ativa de desenvolvedores.
 
 # Implementação do Bot
 
+- Criando e ativando ambiente virtual
+
+```bash
+python3 -m venv .venv
+```
+
+```bash
+source .venv/bin/activate
+```
+
 - Instalando as dependências:
 
 ```bash
 pip install telebot python-dotenv
 ```
 
-ou 
+Ou 
 
 ```bash
 pip install -r requirements.txt
+```
+
+- Executando o Bot
+
+```bash
+python3 app.py
 ```
 
 # Referências:
