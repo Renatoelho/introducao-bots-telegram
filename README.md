@@ -27,7 +27,7 @@ source .venv/bin/activate
 - Instalando as dependências:
 
 ```bash
-pip install telebot python-dotenv
+pip install telebot==0.0.5 python-dotenv==1.0.0
 ```
 
 Ou 
